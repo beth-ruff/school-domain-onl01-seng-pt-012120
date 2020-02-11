@@ -21,7 +21,7 @@ class School
   
   def sort
     roster.sort do |x, y|
-      a <=> b 
+      x <=> y 
     end
     
   end
